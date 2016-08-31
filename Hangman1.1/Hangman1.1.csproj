@@ -43,11 +43,45 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsolePresenter.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="Highscore.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringUtils.cs" />
+    <Compile Include="Word.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="gubbe\0.txt" />
+    <Content Include="gubbe\1.txt" />
+    <Content Include="gubbe\2.txt" />
+    <Content Include="gubbe\3.txt" />
+    <Content Include="gubbe\4.txt" />
+    <Content Include="gubbe\5.txt" />
+    <Content Include="gubbe\6.txt" />
+    <Content Include="gubbe\7.txt" />
+    <Content Include="gubbe\8.txt" />
+    <Content Include="gubbe\9.txt" />
+    <Content Include="gubbe\gameover.txt" />
+    <Content Include="gubbe\winner.txt" />
+    <Content Include="Highscore\highscore.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Words\EasyWord.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Words\HardWord.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Words\MediumWord.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

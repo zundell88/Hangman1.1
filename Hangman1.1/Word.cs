@@ -16,7 +16,7 @@ namespace Hangman1._1
         public string ShownedWord => shownedWord;
         public static void SetDifficulty(int diffNum)
         {
-            var fileName = "";
+            var fileName = String.Empty;
             switch (diffNum)
             {
                 case 1:

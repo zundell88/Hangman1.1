@@ -20,7 +20,11 @@ namespace Hangman1._1
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine(StringUtils.PrintTextInCenter("[Regler]"));
             Console.ResetColor();
-            Console.WriteLine(StringUtils.PrintTextInCenter("  Spelet går ut på att försöka lista ut ett hemligt ord, genom att chansa på en bokstav (A -Ö)\n   man tror kan finnas i ordet. Spelaren har 10 chansingar på sig varje omgång och om man inte\n      lyckas lista ut det hemliga ordet under dessa, hängs man och spelet är förlorat.\n"));
+            Console.WriteLine(StringUtils.PrintTextInCenter("  Spelet går ut på att försöka lista ut ett dålt ord,"));
+            Console.WriteLine(StringUtils.PrintTextInCenter("genom att chansa med en bokstav (A - Ö) man tror kan finnas i ordet."));
+            Console.WriteLine(StringUtils.PrintTextInCenter("Spelaren får gissa på fel bokstav max 10 gånger varje omgång"));
+            Console.WriteLine(StringUtils.PrintTextInCenter("och om man inte lyckas lista ut det hemliga ordet under dessa,"));
+            Console.WriteLine(StringUtils.PrintTextInCenter("hängs man och spelet är förlorat.\n\n\n"));
         }
         public static string GetPlayerName()
         {

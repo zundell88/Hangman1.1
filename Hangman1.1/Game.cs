@@ -15,7 +15,6 @@ namespace Hangman1._1
             ConsolePresenter.PrintWelcome();
             ConsolePresenter.PrintRules();
             ConsolePresenter.PrintAlternative(highscore);
-           
         }
         public static void SetupGame()
         {
@@ -34,9 +33,7 @@ namespace Hangman1._1
             {
                 ConsolePresenter.DrawGame(player, word.SecretWord, word.ShownedWord);
                 if (Word.CheckLetter(ConsolePresenter.AskForLetter()))
-                {
                     player.AddScore(3);
-                }
                 else
                 {
                     player.RemoveScore(1);
@@ -56,7 +53,6 @@ namespace Hangman1._1
                 ConsolePresenter.PrintSecretWord(word.SecretWord, player.Score);
             }
         }
-
         public static void SaveHighscore() => highscore.SavePlayersHighscore();
     }
 }

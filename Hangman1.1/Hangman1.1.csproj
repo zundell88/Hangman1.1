@@ -58,18 +58,18 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="gubbe\0.txt" />
-    <Content Include="gubbe\1.txt" />
-    <Content Include="gubbe\2.txt" />
-    <Content Include="gubbe\3.txt" />
-    <Content Include="gubbe\4.txt" />
-    <Content Include="gubbe\5.txt" />
-    <Content Include="gubbe\6.txt" />
-    <Content Include="gubbe\7.txt" />
-    <Content Include="gubbe\8.txt" />
-    <Content Include="gubbe\9.txt" />
-    <Content Include="gubbe\gameover.txt" />
-    <Content Include="gubbe\winner.txt" />
+    <Content Include="Gubbe\0.txt" />
+    <Content Include="Gubbe\1.txt" />
+    <Content Include="Gubbe\2.txt" />
+    <Content Include="Gubbe\3.txt" />
+    <Content Include="Gubbe\4.txt" />
+    <Content Include="Gubbe\5.txt" />
+    <Content Include="Gubbe\6.txt" />
+    <Content Include="Gubbe\7.txt" />
+    <Content Include="Gubbe\8.txt" />
+    <Content Include="Gubbe\9.txt" />
+    <Content Include="Gubbe\gameover.txt" />
+    <Content Include="Gubbe\winner.txt" />
     <Content Include="Highscore\highscore.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
